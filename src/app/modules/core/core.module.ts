@@ -8,9 +8,10 @@ import { ClickOutsideModule } from 'ng-click-outside';
 import { FilterHomeTypeFormComponent } from './components/filter-home-type-form/filter-home-type-form.component';
 
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [HeaderContainerComponent, NavComponent, FiltersComponent, FilterHomeTypeFormComponent],
+  declarations: [HeaderContainerComponent, NavComponent, FiltersComponent, FilterHomeTypeFormComponent, FooterComponent],
   imports: [
     CommonModule,
     HttpClientModule,
