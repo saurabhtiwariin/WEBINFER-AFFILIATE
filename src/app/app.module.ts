@@ -3,8 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CoreModule } from './modules/core/core.module';
-import {AngularHalModule} from 'angular4-hal';
+import { CoreModule } from './modules/core/core.module'; 
 
 @NgModule({
   declarations: [
@@ -13,8 +12,7 @@ import {AngularHalModule} from 'angular4-hal';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule,
-    AngularHalModule.forRoot()
+    CoreModule
   ],
   providers: [
   ],
