@@ -16,14 +16,19 @@ const routes: Routes = [
   },
   {
     path: '',
-    //redirectTo: 'homes',
-    redirectTo: '',
-    pathMatch: 'full'
+    loadChildren: './modules/core/core.module#CoreModule'
   },
+  // {
+  //   path: '',
+  //   //redirectTo: 'homes',
+  //   redirectTo: '',
+  //   pathMatch: 'full'
+  // },
   {
     path: '**',
-    redirectTo: '#',
-  }];
+    redirectTo: '',
+  }
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
