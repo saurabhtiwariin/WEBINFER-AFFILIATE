@@ -9,9 +9,10 @@ import { FilterHomeTypeFormComponent } from './components/filter-home-type-form/
 
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
+import { SubFooterComponent } from './components/sub-footer/sub-footer.component';
 
 @NgModule({
-  declarations: [HeaderContainerComponent, NavComponent, FiltersComponent, FilterHomeTypeFormComponent, FooterComponent],
+  declarations: [HeaderContainerComponent, NavComponent, FiltersComponent, FilterHomeTypeFormComponent, FooterComponent, SubFooterComponent],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -20,6 +21,6 @@ import { FooterComponent } from './components/footer/footer.component';
     ReactiveFormsModule
 
   ],
-  exports: [HeaderContainerComponent]
+  exports: [HeaderContainerComponent,FooterComponent,SubFooterComponent]
 })
 export class CoreModule { }
