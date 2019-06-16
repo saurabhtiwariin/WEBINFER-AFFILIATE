@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { FilterBarBase, HomeTypes } from '../../containers/header-container/header-container.component';
+import { FilterBarBase } from 'src/app/modules/homes/filters/home-filters/home-filters.component';
 
 @Component({
   selector: 'app-filters',

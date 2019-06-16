@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { HomeTypes, Filters } from 'src/app/modules/core/containers/header-container/header-container.component';
-import { DataService } from 'src/app/modules/core/services/data.service';
+import { Component, OnInit } from '@angular/core'; 
+import { DataService } from 'src/app/services/data.service';
+import { HomeTypes, Filters } from '../../filters/home-filters/home-filters.component';
 
 export interface Home {
   type: HomeTypes;

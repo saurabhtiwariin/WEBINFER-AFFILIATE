@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable, of } from 'rxjs';
-import { Home } from '../../homes/containers/home-list-container/home-list-container.component';
+import { BehaviorSubject, Observable, of } from 'rxjs'; 
 import { HttpClient } from '@angular/common/http';
 import { delay, switchMap } from 'rxjs/operators';
-import { ActivatedRoute } from '@angular/router';
-import { HomeTypes, Filters } from '../containers/header-container/header-container.component';
+import { ActivatedRoute } from '@angular/router'; 
+import { Filters } from '../modules/homes/filters/home-filters/home-filters.component';
+import { Home } from '../modules/homes/containers/home-list-container/home-list-container.component';
 
 export interface DataState<T> {
   loading: boolean;

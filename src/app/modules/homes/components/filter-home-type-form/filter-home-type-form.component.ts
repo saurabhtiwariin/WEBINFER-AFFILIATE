@@ -1,7 +1,7 @@
 import { Component, OnInit, Output,EventEmitter, Input } from '@angular/core';
 import { FormsModule, ReactiveFormsModule, FormGroup, FormBuilder } from '@angular/forms';
 import { filter } from 'rxjs/operators'; 
-import { HomeTypes } from '../../containers/header-container/header-container.component';
+import { HomeTypes } from 'src/app/modules/homes/filters/home-filters/home-filters.component';
 
 @Component({
   selector: 'app-filter-home-type-form',

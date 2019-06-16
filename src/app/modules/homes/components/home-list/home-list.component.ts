@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { DataState } from 'src/app/modules/core/services/data.service';
 import { Home } from '../../containers/home-list-container/home-list-container.component';
+import { DataState } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-home-list',
