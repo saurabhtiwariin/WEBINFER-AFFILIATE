@@ -1,0 +1,95 @@
+
+<section class="uk-section uk-section-small">
+	<div class="uk-container">
+		<div class="uk-grid-medium" uk-grid>
+			<div class="uk-width-1-1 uk-width-1-4@m tm-aside-column">
+        
+        
+        <app-account-leftsidebar></app-account-leftsidebar>
+
+				</div>
+				<div class="uk-width-1-1 uk-width-expand@m">
+					<div class="uk-card uk-card-default uk-card-small tm-ignore-container">
+						<header class="uk-card-header">
+							<h1 class="uk-h2">Settings</h1>
+						</header>
+						<div class="uk-card-body">
+							<form class="uk-form-stacked">
+								<div class="uk-grid-medium uk-child-width-1-1" uk-grid>
+									<fieldset class="uk-fieldset">
+										<legend class="uk-h4">Email</legend>
+										<div class="uk-grid-small uk-child-width-1-1" uk-grid>
+											<div>
+												<label>
+													<div class="uk-form-label">Current Email</div>
+													<input class="uk-input uk-form-width-large" type="email" value="example@example.com" disabled>
+													</label>
+												</div>
+												<div>
+													<label>
+														<div class="uk-form-label">New Email</div>
+														<input class="uk-input uk-form-width-large" type="email">
+														</label>
+													</div>
+													<div>
+														<button class="uk-button uk-button-primary">update email</button>
+													</div>
+												</div>
+											</fieldset>
+											<fieldset class="uk-fieldset">
+												<legend class="uk-h4">Password</legend>
+												<div class="uk-grid-small uk-child-width-1-1" uk-grid>
+													<div>
+														<label>
+															<div class="uk-form-label">Current Password</div>
+															<input class="uk-input uk-form-width-large" type="password">
+															</label>
+														</div>
+														<div>
+															<label>
+																<div class="uk-form-label">New Password</div>
+																<input class="uk-input uk-form-width-large" type="password">
+																</label>
+															</div>
+															<div>
+																<label>
+																	<div class="uk-form-label">Confirm Password</div>
+																	<input class="uk-input uk-form-width-large" type="password">
+																	</label>
+																</div>
+																<div>
+																	<button class="uk-button uk-button-primary">update password</button>
+																</div>
+															</div>
+														</fieldset>
+														<fieldset class="uk-fieldset">
+															<legend class="uk-h4">Email Notifications</legend>
+															<ul class="uk-list uk-margin-remove">
+																<li>
+																	<input class="tm-checkbox" id="notification-1" type="checkbox" name="notification" value="1" checked>
+																		<label for="notification-1">
+																			<span>Weekly Newsletter</span>
+																		</label>
+																	</li>
+																	<li>
+																		<input class="tm-checkbox" id="notification-2" type="checkbox" name="notification" value="1" checked>
+																			<label for="notification-2">
+																				<span>New Product Announcements</span>
+																			</label>
+																		</li>
+																		<li>
+																			<input class="tm-checkbox" id="notification-3" type="checkbox" name="notification" value="1" checked>
+																				<label for="notification-3">
+																					<span>Product Specials</span>
+																				</label>
+																			</li>
+																		</ul>
+																	</fieldset>
+																</div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>

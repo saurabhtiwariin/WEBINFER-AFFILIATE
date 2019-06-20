@@ -1,0 +1,127 @@
+<div class="uk-card uk-card-default uk-card-small uk-flex uk-flex-column uk-height-1-1">
+  <header class="uk-card-header uk-flex uk-flex-middle">
+    <div class="uk-grid-small uk-flex-1" uk-grid>
+      <div class="uk-width-expand">
+        <div class="uk-h3">Filters</div>
+      </div>
+      <button class="uk-offcanvas-close" type="button" uk-close></button>
+    </div>
+  </header>
+  <div class="uk-margin-remove uk-flex-1 uk-overflow-auto"
+    uk-accordion="multiple: true; targets: &gt; .js-accordion-section" style="flex-basis: auto">
+    <section class="uk-card-small uk-card-body">
+      <h4 class="uk-margin-small-bottom">Categories</h4>
+      <ul class="uk-nav uk-nav-default">
+        <li>
+          <a href="subcategory">Laptops</a>
+        </li>
+        <li>
+          <a href="subcategory">Tablets</a>
+        </li>
+        <li>
+          <a href="subcategory">Peripherals</a>
+        </li>
+        <li>
+          <a href="subcategory">Keyboards</a>
+        </li>
+        <li>
+          <a href="subcategory">Accessories</a>
+        </li>
+      </ul>
+    </section>
+    <section class="uk-card-body uk-open js-accordion-section">
+      <h4 class="uk-accordion-title uk-margin-remove">Prices</h4>
+      <div class="uk-accordion-content">
+        <div class="uk-grid-small uk-child-width-1-2 uk-text-small" uk-grid>
+          <div>
+            <div class="uk-inline">
+              <span class="uk-form-icon uk-text-xsmall">from</span>
+              <input class="uk-input" type="text" placeholder="$59">
+            </div>
+          </div>
+          <div>
+            <div class="uk-inline">
+              <span class="uk-form-icon uk-text-xsmall">to</span>
+              <input class="uk-input" type="text" placeholder="$6559">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="uk-card-body js-accordion-section uk-open">
+      <h4 class="uk-accordion-title uk-margin-remove">Brands</h4>
+      <div class="uk-accordion-content">
+        <ul class="uk-list tm-scrollbox">
+          <li>
+            <input class="tm-checkbox" id="brand-1" name="brand" value="1" type="checkbox">
+            <label for="brand-1">
+              <span>Acer
+                <span class="uk-text-meta uk-text-xsmall">177</span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input class="tm-checkbox" id="brand-2" name="brand" value="2" type="checkbox">
+            <label for="brand-2">
+              <span>Apple
+                <span class="uk-text-meta uk-text-xsmall">18</span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input class="tm-checkbox" id="brand-3" name="brand" value="3" type="checkbox">
+            <label for="brand-3">
+              <span>ASUS
+                <span class="uk-text-meta uk-text-xsmall">150</span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input class="tm-checkbox" id="brand-4" name="brand" value="4" type="checkbox">
+            <label for="brand-4">
+              <span>Dell
+                <span class="uk-text-meta uk-text-xsmall">170</span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input class="tm-checkbox" id="brand-5" name="brand" value="5" type="checkbox">
+            <label for="brand-5">
+              <span>HP
+                <span class="uk-text-meta uk-text-xsmall">498</span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input class="tm-checkbox" id="brand-6" name="brand" value="6" type="checkbox">
+            <label for="brand-6">
+              <span>MSI
+                <span class="uk-text-meta uk-text-xsmall">54</span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input class="tm-checkbox" id="brand-7" name="brand" value="7" type="checkbox">
+            <label for="brand-7">
+              <span>Samsung
+                <span class="uk-text-meta uk-text-xsmall">1</span>
+              </span>
+            </label>
+          </li>
+          <li>
+            <input class="tm-checkbox" id="brand-8" name="brand" value="8" type="checkbox">
+            <label for="brand-8">
+              <span>Sony
+                <span class="uk-text-meta uk-text-xsmall">1</span>
+              </span>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="uk-card-body">
+      <button class="uk-button uk-button-default uk-width-1-1">
+        <span class="uk-margin-xsmall-right" uk-icon="icon: close; ratio: .75;"></span>Reset all filters</button>
+    </div>
+  </div>
+</div>

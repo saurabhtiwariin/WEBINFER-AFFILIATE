@@ -1,0 +1,28 @@
+<section class="uk-section uk-section-small">
+  <div class="uk-container">
+    <div class="uk-grid-medium uk-child-width-1-1" uk-grid> 
+      <app-subcategory-heading></app-subcategory-heading>
+
+      <div>
+        <div class="uk-grid-medium" uk-grid>
+          <aside class="uk-width-1-4 tm-aside-column tm-filters" id="filters"
+            uk-offcanvas="overlay: true; container: false;">
+            <div class="uk-offcanvas-bar uk-padding-remove">
+
+              <app-subcategory-leftsidebar></app-subcategory-leftsidebar>
+            </div>
+          </aside>
+          <div class="uk-width-expand">
+            <div class="uk-grid-medium uk-child-width-1-1" uk-grid>
+
+              <app-category-body></app-category-body>
+
+
+              <app-pagination></app-pagination>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
