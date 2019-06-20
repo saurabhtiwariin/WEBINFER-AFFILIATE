@@ -59,9 +59,24 @@ import { AccountOrdersComponent } from './containers/account/account-orders/acco
 import { AccountLeftsidebarComponent } from './containers/account/account-leftsidebar/account-leftsidebar.component';
 import { FavoriteProductsComponent } from './containers/favorites/favorite-products/favorite-products.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
-import {  PersonalComponent } from './pages/personal/personal.component';
+import { PersonalComponent } from './pages/personal/personal.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { PersonalInfoComponent } from './containers/personal-info/personal-info.component';
+import { AboutComponent } from './pages/about/about.component';
+import { TeamComponent } from './containers/about/team/team.component';
+import { StatsComponent } from './containers/about/stats/stats.component';
+import { StoreComponent } from './containers/about/store/store.component';
+import { AboutHeadingComponent } from './containers/about/about-heading/about-heading.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { NewsComponent } from './pages/news/news.component';
+import { NewsRightsidebarComponent } from './containers/news/news-rightsidebar/news-rightsidebar.component';
+import { ArticleComponent } from './pages/article/article.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { FaqHeadingComponent } from './containers/faq/faq-heading/faq-heading.component';
+import { DeliveryComponent } from './pages/delivery/delivery.component';
+import { DeliveryHeadingComponent } from './containers/delivery/delivery-heading/delivery-heading.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 
 @NgModule({
@@ -93,10 +108,10 @@ import { PersonalInfoComponent } from './containers/personal-info/personal-info.
     CartProductsComponent,
     CartCheckoutComponent,
     CheckoutComponent,
-    CheckoutHeadingComponent,CheckoutContactinfoComponent, CheckoutShippingComponent, CheckoutPaymentComponent, 
+    CheckoutHeadingComponent, CheckoutContactinfoComponent, CheckoutShippingComponent, CheckoutPaymentComponent,
     CheckoutRightsidebarComponent, CompareComponent, CompareHeadingComponent, BrandComponent, AccountComponent,
-     AccountOrdersComponent, AccountLeftsidebarComponent, FavoritesComponent, FavoriteProductsComponent,
-      PersonalComponent, SettingsComponent,PersonalInfoComponent],
+    AccountOrdersComponent, AccountLeftsidebarComponent, FavoritesComponent, FavoriteProductsComponent,
+    PersonalComponent, SettingsComponent, PersonalInfoComponent, AboutComponent, TeamComponent, StatsComponent, StoreComponent, AboutHeadingComponent, ContactComponent, BlogComponent, NewsComponent, NewsRightsidebarComponent, ArticleComponent, FaqComponent, FaqHeadingComponent, DeliveryComponent, DeliveryHeadingComponent, NotfoundComponent],
   imports: [
     CommonModule,
     CoreRoutingModule,
@@ -115,10 +130,10 @@ import { PersonalInfoComponent } from './containers/personal-info/personal-info.
     ProductImageComponent, ProductInfoComponent, ProductOverviewComponent, ProductSpecificationsComponent
     , ProductReviewsComponent, ProductQnaComponent, ProductRelateditemsComponent, ProductNewreviewComponent,
     CartComponent, CartCheckoutComponent, CheckoutComponent,
-    CartHeadingComponent, CartProductsComponent,CheckoutContactinfoComponent,
+    CartHeadingComponent, CartProductsComponent, CheckoutContactinfoComponent,
     CheckoutShippingComponent, CheckoutPaymentComponent,
-    CheckoutRightsidebarComponent,CompareComponent,CompareHeadingComponent,
-    BrandComponent,AccountComponent, AccountOrdersComponent, AccountLeftsidebarComponent, FavoritesComponent,
-    FavoriteProductsComponent]
+    CheckoutRightsidebarComponent, CompareComponent, CompareHeadingComponent,
+    BrandComponent, AccountComponent, AccountOrdersComponent, AccountLeftsidebarComponent, FavoritesComponent,
+    FavoriteProductsComponent, PersonalComponent, SettingsComponent, PersonalInfoComponent, AboutComponent, TeamComponent, StatsComponent, StoreComponent, AboutHeadingComponent, ContactComponent, BlogComponent, NewsComponent, NewsRightsidebarComponent, ArticleComponent, FaqComponent, FaqHeadingComponent, DeliveryComponent, DeliveryHeadingComponent, NotfoundComponent]
 })
 export class CoreModule { }

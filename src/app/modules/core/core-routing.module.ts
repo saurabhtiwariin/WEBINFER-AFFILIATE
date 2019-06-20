@@ -13,11 +13,23 @@ import { AccountComponent } from './pages/account/account.component';
 import { FavoritesComponent } from './pages/favorites/favorites.component';
 import { SettingsComponent } from './pages/settings/settings.component';
 import { PersonalComponent } from './pages/personal/personal.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { NewsComponent } from './pages/news/news.component';
+import { ArticleComponent } from './pages/article/article.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { DeliveryComponent } from './pages/delivery/delivery.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
 
 const routes: Routes = [
 {
     path: '',
     component: LandingpageComponent
+},
+{
+  path: 'index',
+  component: LandingpageComponent
 },
 {
   path: 'catalog',
@@ -66,6 +78,42 @@ const routes: Routes = [
 {
   path: 'settings',
   component: SettingsComponent
+},
+{
+  path: 'about',
+  component: AboutComponent
+},
+{
+  path: 'contact',
+  component: ContactComponent
+},
+{
+  path: 'blog',
+  component: BlogComponent
+},
+{
+  path: 'news',
+  component: NewsComponent
+},
+{
+  path: 'article',
+  component: ArticleComponent
+},
+{
+  path: 'faq',
+  component: FaqComponent
+},
+{
+  path: 'delivery',
+  component: DeliveryComponent
+},
+{
+  path: 'notfound',
+  component: NotfoundComponent
+},
+{
+  path: '**',
+  component: NotfoundComponent
 }];
 
 @NgModule({
