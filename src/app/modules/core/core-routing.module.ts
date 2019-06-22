@@ -68,7 +68,7 @@ const routes: Routes = [
   component: AccountComponent
 },
 {
-  path: 'favorites',
+  path: 'favorites.html',
   component: FavoritesComponent
 },
 {

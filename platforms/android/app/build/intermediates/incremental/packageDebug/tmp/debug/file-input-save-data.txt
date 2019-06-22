@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jun 20 21:15:19 BST 2019
+#Thu Jun 20 23:35:19 BST 2019
 60.set=ASSET
 52.set=ASSET
 118.baseType=DIRECTORY
@@ -32,7 +32,7 @@
 22.base=F\:\\Angular7\\webinferaffiliate\\saurabhtiwariin.github.io\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 14.path=www/index.html
 29.base=F\:\\Angular7\\webinferaffiliate\\saurabhtiwariin.github.io\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-61.path=www/modules-brands-brands-module-es2015.js
+61.path=www/polyfills-es2015.js.map
 76.base=F\:\\Angular7\\webinferaffiliate\\saurabhtiwariin.github.io\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 51.set=ASSET
 65.baseType=DIRECTORY
@@ -111,7 +111,7 @@
 25.set=ASSET
 17.set=ASSET
 95.set=ASSET
-62.path=www/polyfills-es2015.js.map
+62.path=www/modules-brands-brands-module-es2015.js
 97.baseType=DIRECTORY
 35.base=F\:\\Angular7\\webinferaffiliate\\saurabhtiwariin.github.io\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 87.set=ASSET
@@ -355,7 +355,7 @@ count=122
 33.path=www/assets/images/brands/acer.svg
 12.baseType=DIRECTORY
 4.base=F\:\\Angular7\\webinferaffiliate\\saurabhtiwariin.github.io\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-80.path=www/vendor-es5.js.map
+80.path=www/modules-homes-homes-module-es2015.js.map
 48.base=F\:\\Angular7\\webinferaffiliate\\saurabhtiwariin.github.io\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 95.base=F\:\\Angular7\\webinferaffiliate\\saurabhtiwariin.github.io\\platforms\\android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 87.path=www/favicon.ico
@@ -414,7 +414,7 @@ count=122
 111.set=ASSET
 72.path=www/assets/images/mastercard-securecode.svg
 103.set=ASSET
-79.path=www/modules-homes-homes-module-es2015.js.map
+79.path=www/vendor-es5.js.map
 94.baseType=DIRECTORY
 54.baseType=DIRECTORY
 14.baseType=DIRECTORY
